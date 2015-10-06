@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>00000003_img.rgb_to_gray_binarize.otsu.tif</title>
+        <respStmt xml:id="resp_0">
+          <resp>page segmentation</resp>
+          <name>tesseract</name>
+        </respStmt>
+      <respStmt xml:id="resp_1"><resp>character recognition</resp><name>kraken</name></respStmt><respStmt xml:id="resp_2"><resp>nidaba-levenshtein</resp><name>spell-checker</name></respStmt></titleStmt>
+      <publicationStmt/>
+    </fileDesc>
+  </teiHeader>
+  <sourceDoc>
+    <surface lrx="1336" lry="2055" ulx="0" uly="0">
+      <graphic url="b5a9c54a-071a-4aff-b5be-9dda3ddb3f2c/00000003_img.rgb_to_gray_binarize.otsu.tif"/>
+      <zone/>
+      <line lrx="1336" lry="2055" ulx="0" uly="0" xml:id="line_0" resp="#resp_0">
+        </line>
+      <line lrx="17" lry="727" ulx="14" uly="33" xml:id="line_1" resp="#resp_0">
+        </line>
+      <line lrx="13" lry="1376" ulx="7" uly="764" xml:id="line_2" resp="#resp_0">
+        </line>
+      <line lrx="11" lry="1369" ulx="7" uly="764" xml:id="line_3" resp="#resp_0">
+        </line>
+      <line lrx="10" lry="1369" ulx="8" uly="764" xml:id="line_4" resp="#resp_0">
+        </line>
+      <line lrx="9" lry="1369" ulx="5" uly="764" xml:id="line_5" resp="#resp_0">
+        </line>
+    </surface>
+  </sourceDoc>
+</TEI>

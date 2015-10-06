@@ -1,0 +1,11 @@
+[]
+[1;36mcelery multi v3.1.18 (Cipater)[0m
+> Starting nodes...
+	> worker@omega004: [1;32mOK[0m
+kraken grc_teubner /cluster/tufts/perseus_ocr/nidaba/Teubner/porphyrius_1975 tif 3015 14
+Fr 2. Okt 11:03:21 EDT 2015
+Preparing filestore		[✓]
+Building batch			[✓]
+ad462397-5505-4ea2-b2b2-15fbe25de9a4
+Fr 2. Okt 11:54:02 EDT 2015
+slurmstepd: _slurm_cgroup_destroy: problem deleting step cgroup path /cgroup/freezer/slurm/uid_30292/job_9064866/step_batch: Device or resource busy

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>00000278_img.rgb_to_gray_binarize.otsu.tif</title>
+        <respStmt xml:id="resp_0">
+          <resp>page segmentation</resp>
+          <name>tesseract</name>
+        </respStmt>
+      <respStmt xml:id="resp_1"><resp>character recognition</resp><name>kraken</name></respStmt><respStmt xml:id="resp_2"><resp>nidaba-levenshtein</resp><name>spell-checker</name></respStmt></titleStmt>
+      <publicationStmt/>
+    </fileDesc>
+  </teiHeader>
+  <sourceDoc>
+    <surface lrx="1358" lry="2029" ulx="0" uly="0">
+      <graphic url="d6846675-8752-41ea-bded-6d6ca523db5e/00000278_img.rgb_to_gray_binarize.otsu.tif"/>
+      <zone/>
+      <line lrx="1356" lry="763" ulx="1351" uly="225" xml:id="line_0" resp="#resp_0">
+        </line>
+      <line lrx="1348" lry="1144" ulx="1338" uly="449" xml:id="line_1" resp="#resp_0">
+        </line>
+      <line lrx="1358" lry="2029" ulx="0" uly="0" xml:id="line_2" resp="#resp_0">
+        </line>
+    </surface>
+  </sourceDoc>
+</TEI>

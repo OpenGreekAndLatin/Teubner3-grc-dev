@@ -1,0 +1,5 @@
+*.tif
+!*.otsu.tif
+*.uzn
+*.xml
+!*False.xml
