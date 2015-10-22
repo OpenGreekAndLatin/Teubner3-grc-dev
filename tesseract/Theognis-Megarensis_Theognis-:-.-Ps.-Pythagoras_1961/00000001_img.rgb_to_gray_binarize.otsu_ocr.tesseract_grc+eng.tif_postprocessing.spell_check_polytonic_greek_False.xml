@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>00000001_img.rgb_to_gray_binarize.otsu.tif</title>
+        <respStmt xml:id="resp_0">
+          <resp>page segmentation</resp>
+          <name>tesseract</name>
+        </respStmt>
+      <respStmt xml:id="resp_1"><resp>character recognition</resp><name>tesseract</name></respStmt><respStmt xml:id="resp_2"><resp>nidaba-levenshtein</resp><name>spell-checker</name></respStmt></titleStmt>
+      <publicationStmt/>
+    </fileDesc>
+  </teiHeader>
+  <sourceDoc>
+    <surface lrx="1580" lry="2424" ulx="0" uly="0">
+      <graphic url="a7ef86f7-b2b5-4688-9c45-ca221867a1ff/00000001_img.rgb_to_gray_binarize.otsu.tif"/>
+      <zone/>
+      <line lrx="1382" lry="1472" ulx="1363" uly="1418" xml:id="line_0" resp="#resp_0">
+        <zone lrx="0" lry="0" resp="#resp_1" type="grapheme" ulx="0" uly="0"><seg><g xml:id="grapheme_0" resp="#resp_1"/></seg></zone></line>
+      <line lrx="1445" lry="1474" ulx="1392" uly="1382" xml:id="line_1" resp="#resp_0">
+        <zone lrx="0" lry="0" resp="#resp_1" type="grapheme" ulx="0" uly="0"><seg><g xml:id="grapheme_1" resp="#resp_1"/></seg></zone></line>
+      <line lrx="1498" lry="1546" ulx="1440" uly="1383" xml:id="line_2" resp="#resp_0">
+        <zone lrx="0" lry="0" resp="#resp_1" type="grapheme" ulx="0" uly="0"><seg><g xml:id="grapheme_2" resp="#resp_1"/></seg></zone></line>
+      <line lrx="1525" lry="1542" ulx="1470" uly="1346" xml:id="line_3" resp="#resp_0">
+        <zone lrx="0" lry="0" resp="#resp_1" type="grapheme" ulx="0" uly="0"><seg><g xml:id="grapheme_3" resp="#resp_1"/></seg></zone></line>
+      <line lrx="1517" lry="1556" ulx="1510" uly="1548" xml:id="line_4" resp="#resp_0">
+        <zone lrx="1517" lry="1556" type="segment" ulx="1510" uly="1548" xml:id="seg_0" resp="#resp_1"><certainty degree="0.69" locus="value" target="#seg_0" resp="#resp_1"/><zone lrx="1517" lry="1556" resp="#resp_1" type="grapheme" ulx="1510" uly="1548"><seg><g xml:id="grapheme_4" resp="#resp_1">n</g></seg><certainty degree="0.69" locus="value" target="#grapheme_4" resp="#resp_1"/></zone><zone lrx="1517" lry="1556" resp="#resp_1" type="grapheme" ulx="1510" uly="1548"><seg><g xml:id="grapheme_5" resp="#resp_1"/></seg></zone><zone lrx="1517" lry="1556" resp="#resp_1" type="grapheme" ulx="1510" uly="1548"><seg><g xml:id="grapheme_6" resp="#resp_1"/></seg></zone><zone lrx="1517" lry="1556" resp="#resp_1" type="grapheme" ulx="1510" uly="1548"><seg><g xml:id="grapheme_7" resp="#resp_1"/></seg></zone><zone lrx="1517" lry="1556" resp="#resp_1" type="grapheme" ulx="1510" uly="1548"><seg><g xml:id="grapheme_8" resp="#resp_1"/></seg></zone><zone lrx="1517" lry="1556" resp="#resp_1" type="grapheme" ulx="1510" uly="1548"><seg><g xml:id="grapheme_9" resp="#resp_1"/></seg></zone><zone lrx="1517" lry="1556" resp="#resp_1" type="grapheme" ulx="1510" uly="1548"><seg><g xml:id="grapheme_10" resp="#resp_1"/></seg></zone><zone lrx="1517" lry="1556" resp="#resp_1" type="grapheme" ulx="1510" uly="1548"><seg><g xml:id="grapheme_11" resp="#resp_1"/></seg></zone></zone></line>
+      <line lrx="1210" lry="1625" ulx="208" uly="1570" xml:id="line_5" resp="#resp_0">
+        </line>
+      <line lrx="1206" lry="1658" ulx="272" uly="1613" xml:id="line_6" resp="#resp_0">
+        </line>
+      <line lrx="1210" lry="1698" ulx="235" uly="1607" xml:id="line_7" resp="#resp_0">
+        </line>
+      <line lrx="1210" lry="1721" ulx="230" uly="1622" xml:id="line_8" resp="#resp_0">
+        </line>
+      <line lrx="1301" lry="1832" ulx="98" uly="1648" xml:id="line_9" resp="#resp_0">
+        </line>
+      <line lrx="1382" lry="1850" ulx="207" uly="1746" xml:id="line_10" resp="#resp_0">
+        </line>
+      <line lrx="1313" lry="1882" ulx="409" uly="1828" xml:id="line_11" resp="#resp_0">
+        </line>
+      <line lrx="1275" lry="1921" ulx="169" uly="1814" xml:id="line_12" resp="#resp_0">
+        <zone lrx="1275" lry="1921" type="segment" ulx="169" uly="1814" xml:id="seg_1" resp="#resp_1"><certainty degree="0.36" locus="value" target="#seg_1" resp="#resp_1"/><zone lrx="188" lry="1908" resp="#resp_1" type="grapheme" ulx="169" uly="1901"><seg><g xml:id="grapheme_12" resp="#resp_1">.</g></seg><certainty degree="0.94" locus="value" target="#grapheme_12" resp="#resp_1"/></zone><zone lrx="243" lry="1921" resp="#resp_1" type="grapheme" ulx="172" uly="1814"><seg><g xml:id="grapheme_13" resp="#resp_1">Ϊ</g></seg><certainty degree="0.67" locus="value" target="#grapheme_13" resp="#resp_1"/></zone><zone lrx="346" lry="1921" resp="#resp_1" type="grapheme" ulx="210" uly="1814"><seg><g xml:id="grapheme_14" resp="#resp_1">Σ</g></seg><certainty degree="0.48" locus="value" target="#grapheme_14" resp="#resp_1"/></zone><zone lrx="458" lry="1881" resp="#resp_1" type="grapheme" ulx="420" uly="1850"><seg><g xml:id="grapheme_15" resp="#resp_1">Μ</g></seg><certainty degree="0.38" locus="value" target="#grapheme_15" resp="#resp_1"/></zone><zone lrx="638" lry="1881" resp="#resp_1" type="grapheme" ulx="510" uly="1815"><seg><g xml:id="grapheme_16" resp="#resp_1">Μ</g></seg><certainty degree="0.53" locus="value" target="#grapheme_16" resp="#resp_1"/></zone><zone lrx="714" lry="1877" resp="#resp_1" type="grapheme" ulx="654" uly="1816"><seg><g xml:id="grapheme_17" resp="#resp_1">ῄ</g></seg><certainty degree="0.41" locus="value" target="#grapheme_17" resp="#resp_1"/></zone><zone lrx="761" lry="1901" resp="#resp_1" type="grapheme" ulx="711" uly="1817"><seg><g xml:id="grapheme_18" resp="#resp_1">ΐ</g></seg><certainty degree="0.50" locus="value" target="#grapheme_18" resp="#resp_1"/></zone><zone lrx="930" lry="1904" resp="#resp_1" type="grapheme" ulx="772" uly="1819"><seg><g xml:id="grapheme_19" resp="#resp_1">Μ</g></seg><certainty degree="0.52" locus="value" target="#grapheme_19" resp="#resp_1"/></zone><zone lrx="946" lry="1908" resp="#resp_1" type="grapheme" ulx="901" uly="1824"><seg><g xml:id="grapheme_20" resp="#resp_1">Ξ</g></seg><certainty degree="0.56" locus="value" target="#grapheme_20" resp="#resp_1"/></zone><zone lrx="974" lry="1904" resp="#resp_1" type="grapheme" ulx="923" uly="1863"><seg><g xml:id="grapheme_21" resp="#resp_1">Ἆ</g></seg><certainty degree="0.36" locus="value" target="#grapheme_21" resp="#resp_1"/></zone><zone lrx="1170" lry="1913" resp="#resp_1" type="grapheme" ulx="983" uly="1820"><seg><g xml:id="grapheme_22" resp="#resp_1">Μ</g></seg><certainty degree="0.54" locus="value" target="#grapheme_22" resp="#resp_1"/></zone><zone lrx="1170" lry="1913" resp="#resp_1" type="grapheme" ulx="983" uly="1820"><seg><g xml:id="grapheme_23" resp="#resp_1"/></seg></zone></zone></line>
+      <line lrx="1175" lry="1938" ulx="400" uly="1909" xml:id="line_13" resp="#resp_0">
+        </line>
+      <line lrx="302" lry="2191" ulx="137" uly="2065" xml:id="line_14" resp="#resp_0">
+        <zone lrx="302" lry="2191" type="segment" ulx="137" uly="2065" xml:id="seg_2" resp="#resp_1"><certainty degree="0.74" locus="value" target="#seg_2" resp="#resp_1"/><zone lrx="177" lry="2184" resp="#resp_1" type="grapheme" ulx="137" uly="2065"><seg><g xml:id="grapheme_24" resp="#resp_1">1</g></seg><certainty degree="0.82" locus="value" target="#grapheme_24" resp="#resp_1"/></zone><zone lrx="218" lry="2188" resp="#resp_1" type="grapheme" ulx="185" uly="2065"><seg><g xml:id="grapheme_25" resp="#resp_1">0</g></seg><certainty degree="0.77" locus="value" target="#grapheme_25" resp="#resp_1"/></zone><zone lrx="302" lry="2191" resp="#resp_1" type="grapheme" ulx="227" uly="2069"><seg><g xml:id="grapheme_26" resp="#resp_1">θᾶ</g></seg><certainty degree="0.74" locus="value" target="#grapheme_26" resp="#resp_1"/></zone></zone></line>
+      <line lrx="912" lry="1922" ulx="895" uly="1897" xml:id="line_15" resp="#resp_0">
+        <zone lrx="912" lry="1922" type="segment" ulx="895" uly="1897" xml:id="seg_3" resp="#resp_1"><certainty degree="0.54" locus="value" target="#seg_3" resp="#resp_1"/><zone lrx="912" lry="1922" resp="#resp_1" type="grapheme" ulx="895" uly="1897"><seg><g xml:id="grapheme_27" resp="#resp_1">ᾖ</g></seg><certainty degree="0.54" locus="value" target="#grapheme_27" resp="#resp_1"/></zone></zone></line>
+      <line lrx="317" lry="2252" ulx="158" uly="2220" xml:id="line_16" resp="#resp_0">
+        <zone lrx="317" lry="2252" type="segment" ulx="158" uly="2220" xml:id="seg_4" resp="#resp_1"><certainty degree="0.76" locus="value" target="#seg_4" resp="#resp_1"/><zone lrx="173" lry="2247" resp="#resp_1" type="grapheme" ulx="158" uly="2220"><seg><g xml:id="grapheme_28" resp="#resp_1">L</g></seg><certainty degree="0.82" locus="value" target="#grapheme_28" resp="#resp_1"/></zone><zone lrx="189" lry="2247" resp="#resp_1" type="grapheme" ulx="171" uly="2228"><seg><g xml:id="grapheme_29" resp="#resp_1">a</g></seg><certainty degree="0.76" locus="value" target="#grapheme_29" resp="#resp_1"/></zone><zone lrx="207" lry="2248" resp="#resp_1" type="grapheme" ulx="192" uly="2230"><seg><g xml:id="grapheme_30" resp="#resp_1">n</g></seg><certainty degree="0.91" locus="value" target="#grapheme_30" resp="#resp_1"/></zone><zone lrx="225" lry="2249" resp="#resp_1" type="grapheme" ulx="210" uly="2224"><seg><g xml:id="grapheme_31" resp="#resp_1">d</g></seg><certainty degree="0.81" locus="value" target="#grapheme_31" resp="#resp_1"/></zone><zone lrx="241" lry="2249" resp="#resp_1" type="grapheme" ulx="227" uly="2232"><seg><g xml:id="grapheme_32" resp="#resp_1">e</g></seg><certainty degree="0.79" locus="value" target="#grapheme_32" resp="#resp_1"/></zone><zone lrx="256" lry="2250" resp="#resp_1" type="grapheme" ulx="244" uly="2232"><seg><g xml:id="grapheme_33" resp="#resp_1">s</g></seg><certainty degree="0.85" locus="value" target="#grapheme_33" resp="#resp_1"/></zone><zone lrx="274" lry="2251" resp="#resp_1" type="grapheme" ulx="260" uly="2226"><seg><g xml:id="grapheme_34" resp="#resp_1">h</g></seg><certainty degree="0.83" locus="value" target="#grapheme_34" resp="#resp_1"/></zone><zone lrx="282" lry="2251" resp="#resp_1" type="grapheme" ulx="277" uly="2228"><seg><g xml:id="grapheme_35" resp="#resp_1">l</g></seg><certainty degree="0.84" locus="value" target="#grapheme_35" resp="#resp_1"/></zone><zone lrx="300" lry="2252" resp="#resp_1" type="grapheme" ulx="286" uly="2226"><seg><g xml:id="grapheme_36" resp="#resp_1">b</g></seg><certainty degree="0.86" locus="value" target="#grapheme_36" resp="#resp_1"/></zone><zone lrx="309" lry="2251" resp="#resp_1" type="grapheme" ulx="303" uly="2227"><seg><g xml:id="grapheme_37" resp="#resp_1">l</g></seg><certainty degree="0.92" locus="value" target="#grapheme_37" resp="#resp_1"/></zone><zone lrx="317" lry="2252" resp="#resp_1" type="grapheme" ulx="310" uly="2248"><seg><g xml:id="grapheme_38" resp="#resp_1">.</g></seg><certainty degree="0.90" locus="value" target="#grapheme_38" resp="#resp_1"/></zone></zone></line>
+      <line lrx="936" lry="1939" ulx="764" uly="1895" xml:id="line_17" resp="#resp_0">
+        <zone lrx="936" lry="1939" type="segment" ulx="764" uly="1895" xml:id="seg_5" resp="#resp_1"><certainty degree="0.61" locus="value" target="#seg_5" resp="#resp_1"/><zone lrx="936" lry="1939" resp="#resp_1" type="grapheme" ulx="764" uly="1895"><seg><g xml:id="grapheme_39" resp="#resp_1">W</g></seg><certainty degree="0.61" locus="value" target="#grapheme_39" resp="#resp_1"/></zone><zone lrx="936" lry="1939" resp="#resp_1" type="grapheme" ulx="764" uly="1895"><seg><g xml:id="grapheme_40" resp="#resp_1"/></seg></zone><zone lrx="936" lry="1939" resp="#resp_1" type="grapheme" ulx="764" uly="1895"><seg><g xml:id="grapheme_41" resp="#resp_1"/></seg></zone><zone lrx="936" lry="1939" resp="#resp_1" type="grapheme" ulx="764" uly="1895"><seg><g xml:id="grapheme_42" resp="#resp_1"/></seg></zone><zone lrx="936" lry="1939" resp="#resp_1" type="grapheme" ulx="764" uly="1895"><seg><g xml:id="grapheme_43" resp="#resp_1"/></seg></zone></zone></line>
+      <line lrx="1152" lry="2014" ulx="722" uly="1913" xml:id="line_18" resp="#resp_0">
+        </line>
+      <line lrx="1048" lry="2041" ulx="736" uly="1972" xml:id="line_19" resp="#resp_0">
+        </line>
+      <line lrx="989" lry="2155" ulx="704" uly="2084" xml:id="line_20" resp="#resp_0">
+        </line>
+      <line lrx="399" lry="2347" ulx="134" uly="2264" xml:id="line_21" resp="#resp_0">
+        </line>
+      <line lrx="1521" lry="1717" ulx="1513" uly="1707" xml:id="line_22" resp="#resp_0">
+        <zone lrx="1521" lry="1717" type="segment" ulx="1513" uly="1707" xml:id="seg_6" resp="#resp_1"><certainty degree="0.54" locus="value" target="#seg_6" resp="#resp_1"/><zone lrx="1521" lry="1717" resp="#resp_1" type="grapheme" ulx="1513" uly="1707"><seg><g xml:id="grapheme_44" resp="#resp_1">s</g></seg><certainty degree="0.54" locus="value" target="#grapheme_44" resp="#resp_1"/></zone><zone lrx="1521" lry="1717" resp="#resp_1" type="grapheme" ulx="1513" uly="1707"><seg><g xml:id="grapheme_45" resp="#resp_1"/></seg></zone></zone></line>
+      <line lrx="969" lry="1610" ulx="374" uly="1578" xml:id="line_23" resp="#resp_0">
+        </line>
+      <line lrx="278" lry="1686" ulx="258" uly="1666" xml:id="line_24" resp="#resp_0">
+        <zone lrx="278" lry="1686" type="segment" ulx="258" uly="1666" xml:id="seg_7" resp="#resp_1"><certainty degree="0.64" locus="value" target="#seg_7" resp="#resp_1"/><zone lrx="278" lry="1683" resp="#resp_1" type="grapheme" ulx="258" uly="1666"><seg><g xml:id="grapheme_46" resp="#resp_1">7</g></seg><certainty degree="0.67" locus="value" target="#grapheme_46" resp="#resp_1"/></zone><zone lrx="274" lry="1686" resp="#resp_1" type="grapheme" ulx="258" uly="1673"><seg><g xml:id="grapheme_47" resp="#resp_1">2</g></seg><certainty degree="0.64" locus="value" target="#grapheme_47" resp="#resp_1"/></zone><zone lrx="278" lry="1686" resp="#resp_1" type="grapheme" ulx="269" uly="1670"><seg><g xml:id="grapheme_48" resp="#resp_1">2</g></seg><certainty degree="0.70" locus="value" target="#grapheme_48" resp="#resp_1"/></zone><zone lrx="278" lry="1686" resp="#resp_1" type="grapheme" ulx="269" uly="1670"><seg><g xml:id="grapheme_49" resp="#resp_1"/></seg></zone><zone lrx="278" lry="1686" resp="#resp_1" type="grapheme" ulx="269" uly="1670"><seg><g xml:id="grapheme_50" resp="#resp_1"/></seg></zone><zone lrx="278" lry="1686" resp="#resp_1" type="grapheme" ulx="269" uly="1670"><seg><g xml:id="grapheme_51" resp="#resp_1"/></seg></zone><zone lrx="278" lry="1686" resp="#resp_1" type="grapheme" ulx="269" uly="1670"><seg><g xml:id="grapheme_52" resp="#resp_1"/></seg></zone></zone></line>
+      <line lrx="1491" lry="1806" ulx="1451" uly="1754" xml:id="line_25" resp="#resp_0">
+        </line>
+      <line lrx="1522" lry="1785" ulx="1479" uly="1678" xml:id="line_26" resp="#resp_0">
+        </line>
+      <line lrx="1520" lry="1843" ulx="1499" uly="1780" xml:id="line_27" resp="#resp_0">
+        </line>
+      <line lrx="1464" lry="1821" ulx="1432" uly="1750" xml:id="line_28" resp="#resp_0">
+        </line>
+      <line lrx="1404" lry="1882" ulx="1387" uly="1841" xml:id="line_29" resp="#resp_0">
+        <zone lrx="1404" lry="1882" type="segment" ulx="1387" uly="1841" xml:id="seg_8" resp="#resp_1"><certainty degree="0.55" locus="value" target="#seg_8" resp="#resp_1"/><zone lrx="1404" lry="1882" resp="#resp_1" type="grapheme" ulx="1387" uly="1841"><seg><g xml:id="grapheme_53" resp="#resp_1">g</g></seg><certainty degree="0.55" locus="value" target="#grapheme_53" resp="#resp_1"/></zone><zone lrx="1404" lry="1882" resp="#resp_1" type="grapheme" ulx="1387" uly="1841"><seg><g xml:id="grapheme_54" resp="#resp_1"/></seg></zone><zone lrx="1404" lry="1882" resp="#resp_1" type="grapheme" ulx="1387" uly="1841"><seg><g xml:id="grapheme_55" resp="#resp_1"/></seg></zone></zone></line>
+      <line lrx="1502" lry="1881" ulx="1464" uly="1812" xml:id="line_30" resp="#resp_0">
+        </line>
+      <line lrx="1486" lry="2045" ulx="1471" uly="1945" xml:id="line_31" resp="#resp_0">
+        </line>
+      <line lrx="1502" lry="1992" ulx="1479" uly="1945" xml:id="line_32" resp="#resp_0">
+        <zone lrx="1500" lry="1977" type="segment" ulx="1499" uly="1974" xml:id="seg_9" resp="#resp_1"><certainty degree="0.87" locus="value" target="#seg_9" resp="#resp_1"/><zone lrx="1500" lry="1977" resp="#resp_1" type="grapheme" ulx="1499" uly="1974"><seg><g xml:id="grapheme_56" resp="#resp_1">,</g></seg><certainty degree="0.87" locus="value" target="#grapheme_56" resp="#resp_1"/></zone></zone></line>
+      <line lrx="1520" lry="2055" ulx="1489" uly="1946" xml:id="line_33" resp="#resp_0">
+        <zone lrx="1520" lry="2055" type="segment" ulx="1489" uly="1946" xml:id="seg_10" resp="#resp_1"><certainty degree="0.66" locus="value" target="#seg_10" resp="#resp_1"/><zone lrx="1520" lry="2055" resp="#resp_1" type="grapheme" ulx="1489" uly="1946"><seg><g xml:id="grapheme_57" resp="#resp_1">ξ</g></seg><certainty degree="0.66" locus="value" target="#grapheme_57" resp="#resp_1"/></zone></zone></line>
+      <line lrx="932" lry="2004" ulx="914" uly="1982" xml:id="line_34" resp="#resp_0">
+        <zone lrx="932" lry="2004" type="segment" ulx="914" uly="1982" xml:id="seg_11" resp="#resp_1"><certainty degree="0.61" locus="value" target="#seg_11" resp="#resp_1"/><zone lrx="926" lry="2004" resp="#resp_1" type="grapheme" ulx="914" uly="1982"><seg><g xml:id="grapheme_58" resp="#resp_1">8</g></seg><certainty degree="0.61" locus="value" target="#grapheme_58" resp="#resp_1"/></zone><zone lrx="932" lry="2004" resp="#resp_1" type="grapheme" ulx="921" uly="1982"><seg><g xml:id="grapheme_59" resp="#resp_1">2</g></seg><certainty degree="0.67" locus="value" target="#grapheme_59" resp="#resp_1"/></zone></zone></line>
+      <line lrx="942" lry="2024" ulx="923" uly="2001" xml:id="line_35" resp="#resp_0">
+        <zone lrx="942" lry="2024" type="segment" ulx="923" uly="2001" xml:id="seg_12" resp="#resp_1"><certainty degree="0.61" locus="value" target="#seg_12" resp="#resp_1"/><zone lrx="942" lry="2019" resp="#resp_1" type="grapheme" ulx="923" uly="2001"><seg><g xml:id="grapheme_60" resp="#resp_1">7</g></seg><certainty degree="0.69" locus="value" target="#grapheme_60" resp="#resp_1"/></zone><zone lrx="942" lry="2024" resp="#resp_1" type="grapheme" ulx="923" uly="2004"><seg><g xml:id="grapheme_61" resp="#resp_1">4</g></seg><certainty degree="0.61" locus="value" target="#grapheme_61" resp="#resp_1"/></zone><zone lrx="942" lry="2024" resp="#resp_1" type="grapheme" ulx="923" uly="2004"><seg><g xml:id="grapheme_62" resp="#resp_1"/></seg></zone><zone lrx="942" lry="2024" resp="#resp_1" type="grapheme" ulx="923" uly="2004"><seg><g xml:id="grapheme_63" resp="#resp_1"/></seg></zone></zone></line>
+      <line lrx="1000" lry="2057" ulx="906" uly="2021" xml:id="line_36" resp="#resp_0">
+        </line>
+      <line lrx="1580" lry="2424" ulx="0" uly="0" xml:id="line_37" resp="#resp_0">
+        </line>
+    </surface>
+  </sourceDoc>
+</TEI>

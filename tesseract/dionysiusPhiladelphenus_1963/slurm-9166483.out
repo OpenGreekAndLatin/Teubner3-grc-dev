@@ -1,0 +1,10 @@
+[]
+[1;36mcelery multi v3.1.18 (Cipater)[0m
+> Starting nodes...
+	> worker@alpha006: [1;32mOK[0m
+tesseract grc+eng,extended=True /cluster/tufts/perseus_ocr/nidaba/Teubner/dionysiusPhiladelphenus_1963 tif 2700 11
+Fr 16. Okt 04:05:41 EDT 2015
+Preparing filestore		[✓]
+Building batch			[✓]
+d8efddaa-5c0b-4a10-ae9c-dcb7c719acd1
+Fr 16. Okt 04:54:27 EDT 2015

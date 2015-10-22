@@ -1,0 +1,10 @@
+[]
+[1;36mcelery multi v3.1.18 (Cipater)[0m
+> Starting nodes...
+	> worker@alpha002: [1;32mOK[0m
+tesseract grc+eng,extended=True /cluster/tufts/perseus_ocr/nidaba/Teubner/Theognis-Megarensis_Theognis-:-.-Ps.-Pythagoras_1961 tif 5850 0
+Do 15. Okt 15:14:08 EDT 2015
+Preparing filestore		[✓]
+Building batch			[✓]
+a7ef86f7-b2b5-4688-9c45-ca221867a1ff
+Do 15. Okt 16:55:22 EDT 2015

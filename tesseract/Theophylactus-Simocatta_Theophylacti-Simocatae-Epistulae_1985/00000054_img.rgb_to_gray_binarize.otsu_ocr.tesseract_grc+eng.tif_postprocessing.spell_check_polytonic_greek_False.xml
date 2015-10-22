@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>00000054_img.rgb_to_gray_binarize.otsu.tif</title>
+        <respStmt xml:id="resp_0">
+          <resp>page segmentation</resp>
+          <name>tesseract</name>
+        </respStmt>
+      <respStmt xml:id="resp_1"><resp>character recognition</resp><name>tesseract</name></respStmt><respStmt xml:id="resp_2"><resp>nidaba-levenshtein</resp><name>spell-checker</name></respStmt></titleStmt>
+      <publicationStmt/>
+    </fileDesc>
+  </teiHeader>
+  <sourceDoc>
+    <surface lrx="1745" lry="2432" ulx="0" uly="0">
+      <graphic url="36fe4786-52ff-4065-8a1e-386f4b5e753f/00000054_img.rgb_to_gray_binarize.otsu.tif"/>
+      <zone/>
+      <line lrx="1745" lry="2432" ulx="0" uly="0" xml:id="line_0" resp="#resp_0">
+        <zone lrx="1713" lry="2389" type="segment" ulx="44" uly="165" xml:id="seg_0" resp="#resp_1"><certainty degree="0.18" locus="value" target="#seg_0" resp="#resp_1"/><zone lrx="1713" lry="2389" resp="#resp_1" type="grapheme" ulx="44" uly="2245"><seg><g xml:id="grapheme_0" resp="#resp_1">h</g></seg><certainty degree="0.18" locus="value" target="#grapheme_0" resp="#resp_1"/></zone><zone lrx="703" lry="517" resp="#resp_1" type="grapheme" ulx="663" uly="475"><seg><g xml:id="grapheme_1" resp="#resp_1">w</g></seg><certainty degree="0.41" locus="value" target="#grapheme_1" resp="#resp_1"/></zone><zone lrx="929" lry="249" resp="#resp_1" type="grapheme" ulx="882" uly="165"><seg><g xml:id="grapheme_2" resp="#resp_1">y</g></seg><certainty degree="0.25" locus="value" target="#grapheme_2" resp="#resp_1"/></zone></zone></line>
+    </surface>
+  </sourceDoc>
+</TEI>

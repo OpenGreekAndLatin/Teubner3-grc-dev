@@ -1,0 +1,38 @@
+Status: SUCCESS
+
+160/160 tasks completed. 0 running.
+
+Output files:
+
+00000011.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000011_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000008.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000008_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000013.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000013_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000015.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000015_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000016.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000016_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000030.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000030_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000001.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000001_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000021.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000021_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000022.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000022_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000010.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000010_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000029.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000029_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000007.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000007_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000017.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000017_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000006.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000006_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000002.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000002_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000009.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000009_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000004.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000004_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000014.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000014_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000005.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000005_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000020.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000020_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000003.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000003_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000028.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000028_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000019.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000019_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000024.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000024_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000032.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000032_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000027.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000027_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000026.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000026_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000018.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000018_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000031.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000031_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000023.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000023_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000025.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000025_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml
+00000012.tif → /cluster/tufts/perseus_ocr/nidaba/OCR/e33af93e-1659-4b49-8455-c2c5a4d8b00b/00000012_img.rgb_to_gray_binarize.otsu_ocr.kraken_grc_teubner_postprocessing.spell_check_polytonic_greek_False.xml

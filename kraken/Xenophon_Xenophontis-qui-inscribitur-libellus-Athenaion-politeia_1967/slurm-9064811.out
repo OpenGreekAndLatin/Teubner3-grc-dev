@@ -1,0 +1,11 @@
+[]
+[1;36mcelery multi v3.1.18 (Cipater)[0m
+> Starting nodes...
+	> worker@omega004: [1;32mOK[0m
+kraken grc_teubner /cluster/tufts/perseus_ocr/nidaba/Teubner/Xenophon_Xenophontis-qui-inscribitur-libellus-Athenaion-politeia_1967 tif 1440 7
+Fr 2. Okt 04:05:58 EDT 2015
+Preparing filestore		[✓]
+Building batch			[✓]
+e33af93e-1659-4b49-8455-c2c5a4d8b00b
+Fr 2. Okt 04:30:58 EDT 2015
+slurmstepd: _slurm_cgroup_destroy: problem deleting step cgroup path /cgroup/freezer/slurm/uid_30292/job_9064811/step_batch: Device or resource busy

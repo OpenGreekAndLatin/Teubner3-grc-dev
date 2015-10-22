@@ -1,0 +1,10 @@
+[]
+[1;36mcelery multi v3.1.18 (Cipater)[0m
+> Starting nodes...
+	> worker@omega011: [1;32mOK[0m
+tesseract grc+eng,extended=True /cluster/tufts/perseus_ocr/nidaba/Teubner/Xenophon_Xenophōntos-Hellēnika_1939 tif 13140 7
+Fr 16. Okt 01:58:00 EDT 2015
+Preparing filestore		[✓]
+Building batch			[✓]
+04f8980e-f591-4264-a7b5-e6430dd48319
+Fr 16. Okt 05:46:30 EDT 2015

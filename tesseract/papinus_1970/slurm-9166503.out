@@ -1,0 +1,10 @@
+[]
+[1;36mcelery multi v3.1.18 (Cipater)[0m
+> Starting nodes...
+	> worker@omega012: [1;32mOK[0m
+tesseract grc+eng,extended=True /cluster/tufts/perseus_ocr/nidaba/Teubner/papinus_1970 tif 6390 15
+Fr 16. Okt 05:44:43 EDT 2015
+Preparing filestore		[✓]
+Building batch			[✓]
+b0711dd9-aaba-4c38-a288-062dab9b9c37
+Fr 16. Okt 07:44:07 EDT 2015

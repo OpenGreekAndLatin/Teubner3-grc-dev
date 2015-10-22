@@ -1,0 +1,10 @@
+[]
+[1;36mcelery multi v3.1.18 (Cipater)[0m
+> Starting nodes...
+	> worker@omega012: [1;32mOK[0m
+tesseract grc+eng,extended=True /cluster/tufts/perseus_ocr/nidaba/Teubner/Xenophon_Xenophontis-Expeditio-Cyri-Anabasis_1972 tif 13680 4
+Fr 16. Okt 01:47:09 EDT 2015
+Preparing filestore		[✓]
+Building batch			[✓]
+24fd11a3-e81a-48d5-a195-3db0186f7626
+Fr 16. Okt 05:44:15 EDT 2015

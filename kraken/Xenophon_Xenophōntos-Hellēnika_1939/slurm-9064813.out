@@ -1,0 +1,11 @@
+[]
+[1;36mcelery multi v3.1.18 (Cipater)[0m
+> Starting nodes...
+	> worker@m3n43: [1;32mOK[0m
+kraken grc_teubner /cluster/tufts/perseus_ocr/nidaba/Teubner/Xenophon_Xenophōntos-Hellēnika_1939 tif 13140 9
+Fr 2. Okt 04:12:38 EDT 2015
+Preparing filestore		[✓]
+Building batch			[✓]
+2d6f57d1-29a9-459b-a3bb-2573027cb6de
+Fr 2. Okt 07:59:28 EDT 2015
+slurmstepd: _slurm_cgroup_destroy: problem deleting step cgroup path /cgroup/freezer/slurm/uid_30292/job_9064813/step_batch: Device or resource busy

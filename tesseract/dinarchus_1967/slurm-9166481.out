@@ -1,0 +1,10 @@
+[]
+[1;36mcelery multi v3.1.18 (Cipater)[0m
+> Starting nodes...
+	> worker@omega025: [1;32mOK[0m
+tesseract grc+eng,extended=True /cluster/tufts/perseus_ocr/nidaba/Teubner/dinarchus_1967 tif 5580 9
+Fr 16. Okt 03:51:12 EDT 2015
+Preparing filestore		[✓]
+Building batch			[✓]
+7adcc482-5a3d-4011-8aac-6d98e14d8e67
+Fr 16. Okt 05:30:33 EDT 2015

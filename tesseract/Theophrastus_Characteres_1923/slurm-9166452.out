@@ -1,0 +1,10 @@
+[]
+[1;36mcelery multi v3.1.18 (Cipater)[0m
+> Starting nodes...
+	> worker@omega011: [1;32mOK[0m
+tesseract grc+eng,extended=True /cluster/tufts/perseus_ocr/nidaba/Teubner/Theophrastus_Characteres_1923 tif 2700 12
+Fr 16. Okt 01:10:26 EDT 2015
+Preparing filestore		[✓]
+Building batch			[✓]
+43f6822b-e62c-40a4-b61c-ff6db8a965e6
+Fr 16. Okt 01:57:27 EDT 2015

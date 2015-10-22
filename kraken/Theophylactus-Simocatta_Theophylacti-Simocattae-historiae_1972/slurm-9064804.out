@@ -1,0 +1,11 @@
+[]
+[1;36mcelery multi v3.1.18 (Cipater)[0m
+> Starting nodes...
+	> worker@m3n22: [1;32mOK[0m
+kraken grc_teubner /cluster/tufts/perseus_ocr/nidaba/Teubner/Theophylactus-Simocatta_Theophylacti-Simocattae-historiae_1972 tif 14580 0
+Fr 2. Okt 02:52:46 EDT 2015
+Preparing filestore		[✓]
+Building batch			[✓]
+aa2edcff-be10-42d8-84f0-045a9e5e9baa
+Fr 2. Okt 07:02:09 EDT 2015
+slurmstepd: _slurm_cgroup_destroy: problem deleting step cgroup path /cgroup/freezer/slurm/uid_30292/job_9064804/step_batch: Device or resource busy

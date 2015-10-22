@@ -1,0 +1,908 @@
+[2015-10-16 05:44:46,150: WARNING/MainProcess] worker@omega012 ready.
+[2015-10-16 06:02:15,245: ERROR/MainProcess] Task nidaba.ocr.tesseract[0997a1d3-c807-40f5-844c-23de9200d7c1] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:02:34,981: ERROR/MainProcess] Task nidaba.ocr.tesseract[e2892053-9715-4df6-84dd-4d5835605b07] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:03:34,504: ERROR/MainProcess] Task nidaba.ocr.tesseract[026f7c39-2e9b-46b9-8372-53e061384598] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:04:34,120: ERROR/MainProcess] Task nidaba.ocr.tesseract[7b4211fe-f288-4c9a-9038-2f4cc2a25836] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:07:43,506: ERROR/MainProcess] Task nidaba.ocr.tesseract[41ecedda-69dc-48bf-aaff-b1a6db157204] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:08:45,394: ERROR/MainProcess] Task nidaba.ocr.tesseract[f9db534e-86fe-41a7-b338-f33919927534] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:09:49,048: ERROR/MainProcess] Task nidaba.ocr.tesseract[11dfbc8f-00aa-454e-94a2-fdabee3830da] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:12:05,381: ERROR/MainProcess] Task nidaba.ocr.tesseract[e29d091c-4cb7-4537-be51-f1c3e3649367] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:12:17,391: WARNING/Worker-10] /cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: ResponseError(u'Command # 1 (SETEX celery-task-meta-921b77e7-1de8-4030-b659-8a1b4b445727 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',):
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-921b77e7-1de8-4030-b659-8a1b4b445727 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+
+  exc, exc_info.traceback)))
+[2015-10-16 06:12:17,393: CRITICAL/MainProcess] Task nidaba.ocr.tesseract[921b77e7-1de8-4030-b659-8a1b4b445727] INTERNAL ERROR: ResponseError(u'Command # 1 (SETEX celery-task-meta-921b77e7-1de8-4030-b659-8a1b4b445727 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-921b77e7-1de8-4030-b659-8a1b4b445727 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[2015-10-16 06:12:25,951: WARNING/Worker-6] /cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: ResponseError(u'Command # 1 (SETEX celery-task-meta-5036224b-d240-43c5-874b-e2f2c89ff9cc 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',):
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-5036224b-d240-43c5-874b-e2f2c89ff9cc 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+
+  exc, exc_info.traceback)))
+[2015-10-16 06:12:25,953: CRITICAL/MainProcess] Task nidaba.ocr.tesseract[5036224b-d240-43c5-874b-e2f2c89ff9cc] INTERNAL ERROR: ResponseError(u'Command # 1 (SETEX celery-task-meta-5036224b-d240-43c5-874b-e2f2c89ff9cc 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-5036224b-d240-43c5-874b-e2f2c89ff9cc 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[2015-10-16 06:12:32,951: WARNING/Worker-11] /cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: ResponseError(u'Command # 1 (SETEX celery-task-meta-aa16b035-2fa8-4009-afeb-ed2d2f0860cd 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',):
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-aa16b035-2fa8-4009-afeb-ed2d2f0860cd 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+
+  exc, exc_info.traceback)))
+[2015-10-16 06:12:32,961: CRITICAL/MainProcess] Task nidaba.ocr.tesseract[aa16b035-2fa8-4009-afeb-ed2d2f0860cd] INTERNAL ERROR: ResponseError(u'Command # 1 (SETEX celery-task-meta-aa16b035-2fa8-4009-afeb-ed2d2f0860cd 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-aa16b035-2fa8-4009-afeb-ed2d2f0860cd 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[2015-10-16 06:12:48,114: WARNING/Worker-40] /cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: ResponseError(u'Command # 1 (SETEX celery-task-meta-fc1f7816-774a-4a32-a87a-2875e3a7be0a 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',):
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-fc1f7816-774a-4a32-a87a-2875e3a7be0a 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+
+  exc, exc_info.traceback)))
+[2015-10-16 06:12:48,117: CRITICAL/MainProcess] Task nidaba.ocr.tesseract[fc1f7816-774a-4a32-a87a-2875e3a7be0a] INTERNAL ERROR: ResponseError(u'Command # 1 (SETEX celery-task-meta-fc1f7816-774a-4a32-a87a-2875e3a7be0a 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-fc1f7816-774a-4a32-a87a-2875e3a7be0a 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[2015-10-16 06:12:55,317: ERROR/MainProcess] Error in timer: ResponseError('MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/async/hub.py", line 136, in fire_timers
+    entry()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/async/timer.py", line 64, in __call__
+    return self.fun(*self.args, **self.kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/async/timer.py", line 132, in _reschedules
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/transport/redis.py", line 316, in maybe_restore_messages
+    num=channel.unacked_restore_limit,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/transport/redis.py", line 183, in restore_visible
+    self.unacked_mutex_expire):
+  File "/opt/shared/python/2.7.6/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/transport/redis.py", line 107, in Mutex
+    i_won = client.setnx(name, lock_id)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 1080, in setnx
+    return self.execute_command('SETNX', name, value)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 565, in execute_command
+    return self.parse_response(connection, command_name, **options)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 577, in parse_response
+    response = connection.read_response()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py", line 574, in read_response
+    raise response
+ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[2015-10-16 06:15:19,107: ERROR/MainProcess] Task nidaba.ocr.tesseract[602fdb50-34f8-441b-b47b-ad719e3b4f1a] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:16:37,526: ERROR/MainProcess] Task nidaba.ocr.tesseract[bc7d69c4-9aea-48c9-aeab-f49450cacd73] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:17:24,119: ERROR/MainProcess] Task nidaba.ocr.tesseract[8eef05ec-5710-40ec-9898-d3a7a4d4ebe5] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:19:38,572: ERROR/MainProcess] Task nidaba.ocr.tesseract[e0d7407d-70dc-4f0d-a2d7-245c7e42fc76] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:19:53,752: ERROR/MainProcess] Task nidaba.ocr.tesseract[1d68fe3c-3d46-432e-92c3-bcf8fd5050c6] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:20:08,230: ERROR/MainProcess] Task nidaba.ocr.tesseract[b6ca1beb-82a7-4501-aad7-8981f83945b0] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:20:13,416: ERROR/MainProcess] Task nidaba.ocr.tesseract[1568df3c-6314-4a12-9934-65c6c6b7cf08] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:20:29,986: ERROR/MainProcess] Task nidaba.ocr.tesseract[8fe2e7a7-6aee-46dd-b427-a90aa3167ad3] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:20:42,740: ERROR/MainProcess] Task nidaba.ocr.tesseract[b5bf08ac-431b-42f8-85cb-c308bbc98419] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:20:58,597: ERROR/MainProcess] Task nidaba.ocr.tesseract[01d76fa8-902a-4f92-b059-d2c71123159d] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:21:30,801: ERROR/MainProcess] Task nidaba.ocr.tesseract[4304c276-d676-4360-a9e6-4a79694a36ed] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:22:49,194: ERROR/MainProcess] Task nidaba.ocr.tesseract[dd717ae2-1125-4a95-9d9e-571ad9b447b7] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:23:25,111: WARNING/Worker-35] /cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: ResponseError(u'Command # 1 (SETEX celery-task-meta-d6efcf66-32be-4fdc-8af8-848b401c90b1 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',):
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-d6efcf66-32be-4fdc-8af8-848b401c90b1 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+
+  exc, exc_info.traceback)))
+[2015-10-16 06:23:25,114: CRITICAL/MainProcess] Task nidaba.ocr.tesseract[d6efcf66-32be-4fdc-8af8-848b401c90b1] INTERNAL ERROR: ResponseError(u'Command # 1 (SETEX celery-task-meta-d6efcf66-32be-4fdc-8af8-848b401c90b1 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-d6efcf66-32be-4fdc-8af8-848b401c90b1 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[2015-10-16 06:23:31,087: WARNING/Worker-11] /cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: ResponseError(u'Command # 1 (SETEX celery-task-meta-e6e3f9d4-4fac-4dc6-8748-ef0a7b81dc58 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',):
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-e6e3f9d4-4fac-4dc6-8748-ef0a7b81dc58 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+
+  exc, exc_info.traceback)))
+[2015-10-16 06:23:31,096: CRITICAL/MainProcess] Task nidaba.ocr.tesseract[e6e3f9d4-4fac-4dc6-8748-ef0a7b81dc58] INTERNAL ERROR: ResponseError(u'Command # 1 (SETEX celery-task-meta-e6e3f9d4-4fac-4dc6-8748-ef0a7b81dc58 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-e6e3f9d4-4fac-4dc6-8748-ef0a7b81dc58 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[2015-10-16 06:23:33,871: WARNING/Worker-8] /cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: ResponseError(u'Command # 1 (SETEX celery-task-meta-74826ace-40f6-4972-bd88-ed16b6fa8cc1 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',):
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-74826ace-40f6-4972-bd88-ed16b6fa8cc1 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+
+  exc, exc_info.traceback)))
+[2015-10-16 06:23:33,873: CRITICAL/MainProcess] Task nidaba.ocr.tesseract[74826ace-40f6-4972-bd88-ed16b6fa8cc1] INTERNAL ERROR: ResponseError(u'Command # 1 (SETEX celery-task-meta-74826ace-40f6-4972-bd88-ed16b6fa8cc1 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-74826ace-40f6-4972-bd88-ed16b6fa8cc1 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[2015-10-16 06:23:34,178: WARNING/Worker-8] /cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: ResponseError(u'Command # 1 (SETEX celery-task-meta-8217f658-0c3a-4159-95cd-e0d2f1efb7cf 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 89, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'errors\', (nkwargs, e.message))\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',):
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-8217f658-0c3a-4159-95cd-e0d2f1efb7cf 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 89, in __call__\n    _redis_set_atomically(batch_id, task_id, 'errors', (nkwargs, e.message))\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+
+  exc, exc_info.traceback)))
+[2015-10-16 06:23:34,191: CRITICAL/MainProcess] Task nidaba.postprocessing.spell_check[8217f658-0c3a-4159-95cd-e0d2f1efb7cf] INTERNAL ERROR: ResponseError(u'Command # 1 (SETEX celery-task-meta-8217f658-0c3a-4159-95cd-e0d2f1efb7cf 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 89, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'errors\', (nkwargs, e.message))\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-8217f658-0c3a-4159-95cd-e0d2f1efb7cf 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 89, in __call__\n    _redis_set_atomically(batch_id, task_id, 'errors', (nkwargs, e.message))\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[2015-10-16 06:23:49,159: WARNING/Worker-14] /cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: ResponseError(u'Command # 1 (SETEX celery-task-meta-9ed00b2c-e044-432a-af06-100d86afb50b 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',):
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-9ed00b2c-e044-432a-af06-100d86afb50b 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+
+  exc, exc_info.traceback)))
+[2015-10-16 06:23:49,162: CRITICAL/MainProcess] Task nidaba.ocr.tesseract[9ed00b2c-e044-432a-af06-100d86afb50b] INTERNAL ERROR: ResponseError(u'Command # 1 (SETEX celery-task-meta-9ed00b2c-e044-432a-af06-100d86afb50b 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\\", line 240, in trace_task\\n    R = retval = fun(*args, **kwargs)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 92, in __call__\\n    _redis_set_atomically(batch_id, task_id, \'state\', \'SUCCESS\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\\", line 32, in _redis_set_atomically\\n    pipe.execute()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2578, in execute\\n    return execute(conn, stack, raise_on_error)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2473, in _execute_transaction\\n    self.immediate_execute_command(\'DISCARD\')\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2413, in immediate_execute_command\\n    return self.parse_response(conn, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 2536, in parse_response\\n    self, connection, command_name, **options)\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\\", line 577, in parse_response\\n    response = connection.read_response()\\n  File \\"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\\", line 574, in read_response\\n    raise response\\nResponseError: DISCARD without MULTI\\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 253, in trace_task
+    I, R, state, retval = on_error(task_request, exc, uuid)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 201, in on_error
+    R = I.handle_error_state(task, eager=eager)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 85, in handle_error_state
+    }[self.state](task, store_errors=store_errors)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 118, in handle_failure
+    req.id, exc, einfo.traceback, request=req,
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 121, in mark_as_failure
+    traceback=traceback, request=request)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 256, in store_result
+    request=request, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/base.py", line 490, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2578, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 2475, in _execute_transaction
+    raise errors[0][1]
+ResponseError: Command # 1 (SETEX celery-task-meta-9ed00b2c-e044-432a-af06-100d86afb50b 86400 {"status": "FAILURE", "traceback": "Traceback (most recent call last):\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py\", line 240, in trace_task\n    R = retval = fun(*args, **kwargs)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 92, in __call__\n    _redis_set_atomically(batch_id, task_id, 'state', 'SUCCESS')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py\", line 32, in _redis_set_atomically\n    pipe.execute()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2578, in execute\n    return execute(conn, stack, raise_on_error)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2473, in _execute_transaction\n    self.immediate_execute_command('DISCARD')\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2413, in immediate_execute_command\n    return self.parse_response(conn, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 2536, in parse_response\n    self, connection, command_name, **options)\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py\", line 577, in parse_response\n    response = connection.read_response()\n  File \"/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py\", line 574, in read_response\n    raise response\nResponseError: DISCARD without MULTI\n", "result": {"exc_message": "DISCARD without MULTI", "exc_type": "ResponseError"}, "children": []}) of pipeline caused error: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[2015-10-16 06:25:26,344: ERROR/MainProcess] Task nidaba.ocr.tesseract[ae5ad15f-0949-4a32-86e6-39c907819957] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:26:37,404: ERROR/MainProcess] Task nidaba.ocr.tesseract[76bada3a-8719-4135-9782-644d3b681ee9] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:26:42,192: ERROR/MainProcess] Task nidaba.ocr.tesseract[b837ec49-2566-40f9-b2e7-c243c971e61a] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:27:25,177: ERROR/MainProcess] Task nidaba.ocr.tesseract[08fc9566-a941-417a-a709-b2469d88e1da] raised unexpected: NidabaTesseractException(u'Tesseract killed by signal: 11',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/tasks/helper.py", line 87, in __call__
+    ret = super(NidabaTask, self).__call__(*args, **nkwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 372, in ocr_tesseract
+    ocr_capi(image_path, result_path, seg, languages, extended)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/nidaba/plugins/tesseract.py", line 420, in ocr_capi
+    raise NidabaTesseractException('Tesseract killed by signal: {0}'.format(os.WTERMSIG(status)))
+NidabaTesseractException: Tesseract killed by signal: 11
+[2015-10-16 06:39:01,313: ERROR/MainProcess] Unrecoverable error: ResponseError('MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.',)
+Traceback (most recent call last):
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/worker/__init__.py", line 206, in start
+    self.blueprint.start(self)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/bootsteps.py", line 123, in start
+    step.start(parent)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/bootsteps.py", line 374, in start
+    return self.obj.start()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/worker/consumer.py", line 278, in start
+    blueprint.start(self)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/bootsteps.py", line 123, in start
+    step.start(parent)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/worker/consumer.py", line 821, in start
+    c.loop(*c.loop_args())
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/celery/worker/loops.py", line 70, in asynloop
+    next(loop)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/async/hub.py", line 324, in create_loop
+    cb(*cbargs)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/transport/redis.py", line 950, in on_readable
+    item = self.cycle.on_readable(fileno)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/transport/redis.py", line 322, in on_readable
+    return chan.handlers[type]()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/kombu/transport/redis.py", line 619, in _brpop_read
+    **options)
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/client.py", line 577, in parse_response
+    response = connection.read_response()
+  File "/cluster/home/mmunso01/envs/nidaba/lib/python2.7/site-packages/redis/connection.py", line 574, in read_response
+    raise response
+ResponseError: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[2015-10-16 06:39:14,302: WARNING/MainProcess] Restoring 9 unacknowledged message(s).

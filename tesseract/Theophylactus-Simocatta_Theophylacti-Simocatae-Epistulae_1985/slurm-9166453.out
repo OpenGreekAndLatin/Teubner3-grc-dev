@@ -1,0 +1,10 @@
+[]
+[1;36mcelery multi v3.1.18 (Cipater)[0m
+> Starting nodes...
+	> worker@alpha017: [1;32mOK[0m
+tesseract grc+eng,extended=True /cluster/tufts/perseus_ocr/nidaba/Teubner/Theophylactus-Simocatta_Theophylacti-Simocatae-Epistulae_1985 tif 2430 13
+Fr 16. Okt 01:12:30 EDT 2015
+Preparing filestore		[✓]
+Building batch			[✓]
+36fe4786-52ff-4065-8a1e-386f4b5e753f
+Fr 16. Okt 01:55:44 EDT 2015

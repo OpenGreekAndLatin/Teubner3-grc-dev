@@ -1,0 +1,10 @@
+[]
+[1;36mcelery multi v3.1.18 (Cipater)[0m
+> Starting nodes...
+	> worker@alpha026: [1;32mOK[0m
+tesseract grc+eng,extended=True /cluster/tufts/perseus_ocr/nidaba/Teubner/lycurgus_1970 tif 5760 9
+Fr 16. Okt 05:28:12 EDT 2015
+Preparing filestore		[✓]
+Building batch			[✓]
+2baf85e1-e2b5-48e7-93b9-95cb11abed75
+Fr 16. Okt 07:10:05 EDT 2015

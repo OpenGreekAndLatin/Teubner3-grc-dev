@@ -1,0 +1,10 @@
+[]
+[1;36mcelery multi v3.1.18 (Cipater)[0m
+> Starting nodes...
+	> worker@omega020: [1;32mOK[0m
+tesseract grc+eng,extended=True /cluster/tufts/perseus_ocr/nidaba/Teubner/Theodoretus-Cyrrhensis_Graecarvm-affectionvm-cvratio-:-ad-codices-optimos-denuo-collatos-recensuit_1969 tif 14940 11
+Fr 16. Okt 01:07:19 EDT 2015
+Preparing filestore		[✓]
+Building batch			[✓]
+56bc18a6-0f04-4db0-be9d-03b826329bab
+Fr 16. Okt 05:27:56 EDT 2015
